@@ -1,14 +1,14 @@
 # Frontend take-home: Custom Collections
 
-In the NFT world tokens are organized in Collections. Most of the times, each collection groups thousands of NFT making a bit hard to keep track of what's happening with the specific tokens we're interested in.
+In the NFT world tokens are organized in Collections. Most of the times, each collection groups thousands of NFTs making it a bit hard to keep track of what's happening with the specific tokens we're interested in.
 
-For this take-home, we want you to build a little piece of the platform that will help users groupins token into one Custom Collection that can be followed and monitored. We want you to build a web app that list all NFT collections available in the [Reservoir API](https://docs.reservoir.tools/reference), and will let the user select whith particular tokens will be included in their own Custom Collection.
+For this take-home, we want you to build a little piece of the platform that will help users group tokens into one Custom Collection that can be followed and monitored. We want you to build a web app that lists all NFT collections available in the [Reservoir API](https://docs.reservoir.tools/reference), and will let the user select which particular tokens will be included in their own Custom Collection.
 
 ![](create-custom-collection.png)
 
 On the left side the user can select a collection from the dropdown. Then the token list below the dropdown will list the available NFTs in that collection.
 
-The user should be able to drag & drop items into the right side section to add this item to the Custom Collection. Items added to the Custom Collection could be remove (this could be perfor by clicking a call-to-action in each card).
+The user should be able to drag & drop items into the right side section to add this item to the Custom Collection. Items added to the Custom Collection could be removed (this could be performed by clicking a call-to-action in each card).
 
 A Custom Collection should have a non-empty name and we should give the user the ability to persist the Custom Collection.
 
